@@ -11,7 +11,7 @@ dotenv.config({ path: './config/config.env' });
 connectDB();
 
 //Routes
-const sentences = require('./routes/sentences');
+const sentences = require('./routes/stories');
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));

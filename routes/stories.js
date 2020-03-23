@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { getIndex } = require('../controllers/sentences');
+const { getIndex } = require('../controllers/stories');
 
 const router = express.Router();
 
